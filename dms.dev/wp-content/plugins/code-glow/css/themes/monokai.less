@@ -1,0 +1,40 @@
+
+/*
+Monokai Bright theme
+*/
+
+
+@purple: #ae81ff;
+@blue: 	#66d9ef;
+@green: #a6e22e;
+@pink:	#f92672;
+
+.CodeMirror.cm-s-codeglow {
+	background: #272822; 
+	color: #f8f8f2;
+
+	span.cm-atom		{color: @green;}
+	span.cm-number 		{color: @purple;}
+	span.cm-property	{color: @blue;}
+	span.cm-attribute	{color: @green;}
+	span.cm-keyword		{color: @blue; font-style: italic; }
+	span.cm-string		{color: #e6db74;}
+	span.cm-variable	{color: @green;}
+	span.cm-variable-2	{color: #9effff;}
+	span.cm-def			{color: #fd971f;}
+	span.cm-error		{color: #f8f8f0; background: @pink;}
+	span.cm-bracket		{color: #f8f8f2;}
+	span.cm-tag			{color: @pink;}
+	span.cm-link		{color: @purple;}
+	span.cm-meta		{color: @purple;}
+	//span.cm-comment {color: #75715e;}
+
+	.CodeMirror-gutter {background: #272822; }
+	.CodeMirror-gutter-text { color: #d0d0d0; }
+	.CodeMirror-cursor {border-left: 1px solid #f8f8f0 !important;}
+	.CodeMirror-selected {background: #49483E !important;}
+	.CodeMirror-matchingbracket {
+	  text-decoration: underline;
+	  color: white !important;
+	}
+}

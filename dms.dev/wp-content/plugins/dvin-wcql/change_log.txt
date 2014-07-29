@@ -1,0 +1,58 @@
+
+**Request For a Quote Changelog 
+2014.06.10 - version 1.15
+* Fixed Gravity forms error
+* Added support to show/hide Quantity field
+
+2014.06.04 - version 1.14
+* Handling Emails in effective way
+* Added support to gravity Forms
+* Stock limit issue fixed
+
+
+2014.05.22 - version 1.13
+* Hide Price functionality added
+* Multiple Email Support
+
+2014.04.17 - version 1.12
+* For simple product now plugin works without add-to-cart field
+2014.04.11 - version 1.11
+* Line Ending issue in add-to-quotelist.php - fixed
+2014.04.04 - version 1.10
+* Adding product not working when price is not set for the products - Fixed
+2014.04.04 - version 1.9
+* Remove the product link not working - fixed
+* Hiding Add To Cart button fixed
+* packaging of the plugin changed, now can be installed directly
+2014.03.25 - version 1.8
+* Removed the popup as per users request
+* Added "Product Added" in product details page and linked to QuoteList Page
+2014.03.23  - version 1.7
+* Backward compatibility to WC 2.0+
+* Added Popup 
+* Replaced "In Quotelist" in shop page instead of "X Quote"
+2014.03.22 - version 1.6
+* added necessary filters for the flexibility to add fields and validation to the form.
+2014.03.22 - version 1.5
+* MOST IMPORTANT! Added Remove functionality in both Shop and Product Details Page
+* Feature to override template,javascript and language files in theme folder
+* Added checkbox to remove/hide Price column from list and email templates
+* Now Quantity field in Quote list have +/-
+* Fixed minor bugs
+* Updated the documentation
+2014.03.15 - version 1.4
+* Fixed bugs related to variable product
+* Fixed Translation string
+* Fixed removing product issue
+2014.03.08 - version 1.3
+* Email Charset changed from iso-8859-1 to UTF-8
+* Added link to the product image in Email
+* Fixed checkbox issue
+* Added Copy Email to Customer feature
+* Fixed headers already sent while saving settings
+2014.02.18 - version 1.2
+* Small bug fixes related to translation
+2014.02.17 - version 1.1
+* Feature to add button to Product List Page
+* Small bug fixes2013.12.26 - version 1.7.8
+* Initial Release

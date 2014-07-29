@@ -1,0 +1,65 @@
+.CodeMirror.cm-s-codeglow {
+  color: #333;
+  background-color: #ededed;
+  background-image: -moz-linear-gradient(top,#f0f0f0,#e8e8e8);
+  background-image: -ms-linear-gradient(top,#f0f0f0,#e8e8e8);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#f0f0f0),to(#e8e8e8));
+  background-image: -webkit-linear-gradient(top,#f0f0f0,#e8e8e8);
+  background-image: -o-linear-gradient(top,#f0f0f0,#e8e8e8);
+  background-image: linear-gradient(top,#f0f0f0,#e8e8e8);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#e8e8e8', GradientType=0);
+}
+.CodeMirror.cm-s-codeglow .CodeMirror-selected {
+  background: #E4E4E4 !important;
+}
+.CodeMirror.cm-s-codeglow span.cm-keyword {
+  color: #049cdb;
+  font-style: italic;
+}
+.CodeMirror.cm-s-codeglow span.cm-atom {
+  color: #f89406;
+}
+.CodeMirror.cm-s-codeglow span.cm-number {
+  color: #7a43b6;
+}
+.CodeMirror.cm-s-codeglow span.cm-def {
+  color: #f89406;
+}
+.CodeMirror.cm-s-codeglow span.cm-variable {
+  color: #DD4814;
+}
+.CodeMirror.cm-s-codeglow span.cm-variable-2 {
+  color: #049cdb;
+}
+.CodeMirror.cm-s-codeglow span.cm-property {
+  color: #c3325f;
+}
+.CodeMirror.cm-s-codeglow span.cm-comment {
+  color: #999;
+}
+.CodeMirror.cm-s-codeglow span.cm-string {
+  color: #46a546;
+}
+.CodeMirror.cm-s-codeglow span.cm-string-2 {
+  color: #f89406;
+}
+.CodeMirror.cm-s-codeglow span.cm-meta {
+  color: #c3325f;
+}
+.CodeMirror.cm-s-codeglow span.cm-bracket {
+  color: #0064cd;
+}
+.CodeMirror.cm-s-codeglow span.cm-tag {
+  color: #9d261d;
+}
+.CodeMirror.cm-s-codeglow span.cm-attribute {
+  color: #f89406;
+}
+.CodeMirror.cm-s-codeglow .CodeMirror-matchingbracket {
+  color: #46a546 !important;
+  text-decoration: underline;
+}
+.CodeMirror.cm-s-codeglow .CodeMirror-nonmatchingbracket {
+  color: #9d261d;
+}

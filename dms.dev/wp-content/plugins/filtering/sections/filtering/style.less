@@ -1,0 +1,182 @@
+.form-filtering-local,
+.form-filtering-global, // global
+.form-settings-filtering{ // section
+    legend{
+        display:none;
+    }
+    div[class*='opt-filtering_']{
+
+         display:inline-block;
+        vertical-align: top;
+        padding:10px;
+        .box-sizing(border-box);
+
+        @media(min-width:1500px) { width:20%;    }
+        @media(max-width:1499px) { width:25%;    }
+        @media(max-width:1200px) { width:33.333%;}
+        @media(max-width:900px)  { width:50%;    }
+        @media(max-width:767px) {
+            width:100%;
+            display: block;
+            padding:0 0 20px 0;
+
+        }
+    }
+}
+
+
+.section-filtering{
+	
+	.options {
+		
+		margin-bottom: 25px;
+		height: auto;
+		padding: 10px;
+		border-bottom:1px solid @baseContrast;
+		
+		li {
+			display: inline;
+			white-space:nowrap;
+			
+			a {
+				color:fadeout(@pl-text,20);
+				
+				padding:7px 15px;
+				.box-sizing(border-box);
+
+				
+				
+			
+				}
+			a:hover {
+				color:@pl-link;
+			}
+				
+			.selected  {
+			color:@pl-link;
+		}
+		}
+	}
+	.select {
+		margin-bottom: 25px;
+	}
+	.filtering {
+		margin: 0 auto;
+
+		.item {
+			margin-bottom: 10px;
+			.item-title{
+				padding: 0 0 .4em 0;
+				text-align: center;
+			}
+		}
+		.filtering-image img{
+			margin-bottom: 10px;
+			vertical-align: bottom;
+		}
+		.post-info {
+			font-size: @fontSizeSmall;
+			text-align: center;
+		}
+		
+	}
+	
+
+	
+	
+	/* Start: Recommended Isotope styles */
+	
+	/**** Isotope Filtering ****/
+	
+	.isotope-item {
+	  z-index: 2;
+	}
+	
+	.isotope-hidden.isotope-item {
+	  pointer-events: none;
+	  z-index: 1;
+	}
+	
+	/**** Isotope CSS3 transitions ****/
+	
+	.isotope,
+	.isotope .isotope-item {
+	  -webkit-transition-duration: 0.8s;
+	     -moz-transition-duration: 0.9s;
+	      -ms-transition-duration: 0.9s;
+	       -o-transition-duration: 0.9s;
+	          transition-duration: 0.9s;
+	}
+	
+	.isotope {
+	
+	-webkit-transition-timing-function: ease-in-out;
+	  -webkit-transition-property: height, width;
+	     -moz-transition-property: height, width;
+	      -ms-transition-property: height, width;
+	       -o-transition-property: height, width;
+	          transition-property: height, width;
+	}
+	
+	.isotope .isotope-item {
+	  	
+	  -webkit-transition-property: -webkit-transform, opacity;
+	     -moz-transition-property:    -moz-transform, opacity;
+	      -ms-transition-property:     -ms-transform, opacity;
+	       -o-transition-property:      -o-transform, opacity;
+	          transition-property:         transform, opacity;
+	}
+	
+	/**** disabling Isotope CSS3 transitions ****/
+	
+	.isotope.no-transition,
+	.isotope.no-transition .isotope-item,
+	.isotope .isotope-item.no-transition {
+	  -webkit-transition-duration: 0s;
+	     -moz-transition-duration: 0s;
+	      -ms-transition-duration: 0s;
+	       -o-transition-duration: 0s;
+	          transition-duration: 0s;
+	}
+
+
+	
+	/* End: Recommended Isotope styles */
+
+
+	.custom-style {
+		.options {
+		#gradient > .vertical(@baseContrast, @baseContrastDark);
+		margin-bottom: 25px;
+		height: auto;
+		padding: 10px;
+		border: 1px solid @baseContrastDarkMore;
+		.border-radius(5px);
+		li {
+			display: inline;
+			padding-right: 10px;
+			a {
+				color: @pl-text;
+				padding:    13px 5px;
+				
+			
+				}
+			a:hover {
+				#gradient > .vertical(@baseContrastDark, @baseContrast);
+			}
+				
+			.selected {
+			#gradient > .vertical(@baseContrastDark, @baseContrast);
+		}
+		}
+	}
+	}
+	
+}
+
+
+
+
+
+
+

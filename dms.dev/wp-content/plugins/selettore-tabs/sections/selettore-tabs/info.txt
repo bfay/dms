@@ -1,0 +1,14 @@
+== Description ==
+
+Description of your product goes here. It's what is shown on the actual store page. You can use HTML.
+
+== Changelog ==
+
+= 1.2 =
+* Fixed click inside tab on mobiles.
+
+= 1.1 =
+* navbar depth issue fixed.
+
+= 1.0 =
+* Initial release

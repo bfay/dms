@@ -1,0 +1,37 @@
+
+/*
+Solarized Light
+*/
+ 
+@green : #859900;
+@darkBlue : #073642;
+@lightBlue : #268BD2;
+@grayBlue : #536871;
+@goldBrown : #B58900;
+@brownish : #A57800;
+@rust : #CB4B16;
+
+.CodeMirror.cm-s-codeglow {
+	background-color: #FDF6E3;
+	color: #586E75; 
+
+	span.cm-keyword		{color: @green; font-style: bold;}
+	span.cm-atom		{color: @goldBrown;}
+	span.cm-number		{color: #269186;}
+	span.cm-def			{color: @lightBlue;}
+	span.cm-variable	{color: @lightBlue;}
+	span.cm-variable-2	{color: #586E75;}
+	span.cm-property	{color: @brownish;}
+	span.cm-comment		{color: #93A1A1;}
+	span.cm-string		{color: #2AA198;}
+	span.cm-string-2	{color: #D30102;}
+	span.cm-meta		{color: #269186;}
+	span.cm-bracket		{color: @grayBlue;}
+	span.cm-tag			{color: @lightBlue;}
+	span.cm-attribute	{color: #93A1A1;}
+	span.cm-link		{color: #269186;}
+
+	.CodeMirror-selected {background: #F1FFC3 !important;}
+	.CodeMirror-matchingbracket {color: @green !important; text-decoration: underline; }
+	.CodeMirror-nonmatchingbracket {color: #f22;}
+}

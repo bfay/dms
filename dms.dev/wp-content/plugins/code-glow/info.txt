@@ -1,0 +1,30 @@
+== Description ==
+
+A plugin for adding and customizing syntax highlighting to native PageLines custom code editors, <em>as well as WordPress post, page, & custom post type html editors!</em>
+
+Code Glow offers multiple color schemes to choose from as well as options that control the behavior of the enhanced editors.
+
+All settings are user-specific!
+
+== Changelog ==
+
+= 1.2 =
+* DMS Ready
+
+= 1.1.3 =
+* SSL fix
+
+= 1.1.2 =
+* Added support for PHP syntax highlighting
+* Spring cleaning & tidying up
+
+= 1.1.1 =
+* Post editor bug fix
+
+= 1.1 =
+* Plugins can now easily integrate with Code Glow to add their own enhanced editors in wp-admin.
+* Lots of coding improvements & optimizations.
+* Post editor modal optimized.
+
+= 1.0 =
+* Initial release

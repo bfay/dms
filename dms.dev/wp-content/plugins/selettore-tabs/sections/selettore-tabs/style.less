@@ -1,0 +1,137 @@
+#navbar{
+	z-index: 1000;
+}
+.section-selettore-tabs{
+
+	.tabs-container{
+		margin-left: 10px;
+		position: relative;
+		height: 100%;
+		margin-top: 0px;
+		top: 0px;
+		display: inline-block;
+		width: 100%;
+		.tab-slide{
+			opacity: 0;
+			display: block;
+			top:0px;
+			position: absolute;
+			margin-top: 10%;
+			width: 100%;
+		}
+		.media{
+			text-align: center;
+		}
+
+	}
+
+	.preformats{
+		h1, h5{
+			text-align: center;
+		}
+		h5{
+			margin-bottom: 10px;
+		}
+		.stab-details{
+			padding: 20px 0;
+		}
+	}
+
+	.tabs-selector{
+		position: relative;
+		display: inline-block;
+		border: 1px solid #ddd;
+		width: 100%;
+
+		.tab-wrapper{
+			border-bottom: 1px solid #eee;
+			display: block;
+			min-height: 55px;
+			&:last-child{
+				border-bottom: 0px;
+			}
+		}
+
+		.tab-label{
+			position: relative;
+			display: table;
+			float: left;
+			width: 100%;
+			cursor: pointer;
+			z-index: 10;
+			min-height: 50px;
+			.transition( all 0.25s ease );
+
+			&.current{
+				background: #10b9b9;
+				color:#ffffff;
+				.transition( all 0.25s ease );
+				.tab-pointer{
+					.triangle{
+						opacity: 1;
+						.transition( all 0.25s ease );
+					}
+				}
+			}
+		}
+		.tab-icon{
+			height: 40px;
+			position: relative;
+			margin: 15px 15px 0 15px;
+			float: left;
+			font-size: 20px;
+		}
+		.tab-title{
+			position: relative;
+			line-height: 16px;
+			display: table-cell;
+			vertical-align: middle;
+			padding-right: 10px;
+			width: 81%;
+			line-height: 1em;
+			font-weight: 600;
+		}
+		.tab-pointer {
+			position: absolute;
+			width: 10px;
+			height: 100%;
+			top: 0px;
+			right: -10px;
+			//.transition( all 0.25s ease );
+
+			.triangle{
+				border-top-width: 27.5px;
+				border-top-style: solid;
+				border-top-color: transparent;
+				border-bottom-width: 27.5px;
+				border-bottom-style: solid;
+				border-bottom-color: transparent;
+				border-left-width: 10px;
+				border-left-style: solid;
+				border-left-color: #10b9b9;
+				opacity: 0;
+				.transition( all 0.25s ease );
+			}
+		}
+		.tab-contents{
+			display: none;
+			padding: 10px;
+		}
+	}
+}
+
+
+
+
+@media screen and (max-width: 760px) {
+	.section-selettore-tabs{
+		.tabs-container{
+			display: none;
+		}
+		.tabs-selector{
+			.tab-pointer{
+				display: none;
+			}
+		}
+	}
+}

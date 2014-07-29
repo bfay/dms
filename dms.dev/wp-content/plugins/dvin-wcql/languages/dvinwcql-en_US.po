@@ -1,0 +1,293 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DVin Woocommerce Wishlist\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-10 08:00+0530\n"
+"PO-Revision-Date: 2014-06-10 08:00+0530\n"
+"Last-Translator: wajid <king4u_7@yahoo.com>\n"
+"Language-Team: 1 <dvin4580@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: India\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: ../templates\n"
+"X-Poedit-SearchPath-2: ../js\n"
+
+#: ../class-dvin-wcql-ui.php:24
+#: ../class-dvin-wcql-ui.php:76
+msgid "Add to Quote"
+msgstr ""
+
+#: ../class-dvin-wcql-ui.php:58
+#: ../class-dvin-wcql-ui.php:62
+msgid "Product Added to Quote"
+msgstr ""
+
+#: ../class-dvin-wcql-ui.php:58
+#: ../class-dvin-wcql-ui.php:62
+msgid "Remove from Quote"
+msgstr ""
+
+#: ../class-dvin-wcql-ui.php:107
+#: ../class-dvin-wcql-ui.php:111
+msgid "In Quotelist"
+msgstr ""
+
+#: ../class-dvin-wcql.php:118
+#: ../class-dvin-wcql.php:162
+msgid "Please choose product options&hellip;"
+msgstr ""
+
+#: ../class-dvin-wcql.php:158
+msgid "Error occurred while adding product to quotelist"
+msgstr ""
+
+#: ../class-dvin-wcql.php:185
+#: ../dvin-woocommerce-quotelist.php:276
+msgid "Product"
+msgstr ""
+
+#: ../class-dvin-wcql.php:185
+#: ../dvin-woocommerce-quotelist.php:276
+#: ../templates/quotelist.php:31
+msgid "Product Name"
+msgstr ""
+
+#: ../class-dvin-wcql.php:190
+#: ../dvin-woocommerce-quotelist.php:281
+#: ../templates/quotelist.php:36
+msgid "Quantity"
+msgstr ""
+
+#: ../class-dvin-wcql.php:196
+#: ../dvin-woocommerce-quotelist.php:287
+#: ../templates/quotelist.php:33
+msgid "Unit Price"
+msgstr ""
+
+#: ../class-dvin-wcql.php:196
+#: ../dvin-woocommerce-quotelist.php:287
+#: ../templates/email_settings_template.php:41
+msgid "Total Price"
+msgstr ""
+
+#: ../dvin-wcql-ajax.php:26
+#: ../dvin-wcql-ajax.php:39
+msgid "Successfully removed"
+msgstr ""
+
+#: ../dvin-wcql-ajax.php:28
+#: ../dvin-wcql-ajax.php:41
+msgid "Error Occured"
+msgstr ""
+
+#: ../dvin-wcql-ajax.php:49
+msgid "No Products added to quotelist"
+msgstr ""
+
+#: ../dvin-wcql-ajax.php:74
+msgid "Successfully added"
+msgstr ""
+
+#: ../dvin-wcql-ajax.php:76
+msgid "Already Exists. Browse Quotelist."
+msgstr ""
+
+#: ../dvin-wcql-ajax.php:90
+#: ../templates/form.php:16
+msgid "Name"
+msgstr ""
+
+#: ../dvin-wcql-ajax.php:93
+#: ../dvin-wcql-ajax.php:98
+#: ../templates/form.php:20
+msgid "Email"
+msgstr ""
+
+#: ../dvin-wcql-ajax.php:119
+msgid "Email Sent Successfully"
+msgstr ""
+
+#: ../dvin-wcql-ajax.php:122
+msgid "There was a problem sending your message. Please try again."
+msgstr ""
+
+#: ../dvin-wcql-ajax.php:126
+#: ../templates/form.php:5
+msgid "Please select products to send."
+msgstr ""
+
+#: ../templates/admin_template.php:12
+msgid "Plugin Version"
+msgstr ""
+
+#: ../templates/admin_template.php:19
+msgid "Updated Successfully"
+msgstr ""
+
+#: ../templates/email_settings_template.php:7
+msgid "Email Settings"
+msgstr ""
+
+#: ../templates/email_settings_template.php:12
+msgid "Admin Email"
+msgstr ""
+
+#: ../templates/email_settings_template.php:18
+msgid "Send Copy to Requestor"
+msgstr ""
+
+#: ../templates/email_settings_template.php:24
+msgid "Subject"
+msgstr ""
+
+#: ../templates/email_settings_template.php:30
+msgid "Body"
+msgstr ""
+
+#: ../templates/email_settings_template.php:37
+msgid "Allowed tags"
+msgstr ""
+
+#: ../templates/email_settings_template.php:38
+msgid "Filled in Name field in the form"
+msgstr ""
+
+#: ../templates/email_settings_template.php:39
+msgid "Filled in Email field in the form"
+msgstr ""
+
+#: ../templates/email_settings_template.php:40
+msgid "User's Quotelist in table format"
+msgstr ""
+
+#: ../templates/email_settings_template.php:42
+msgid "Comments"
+msgstr ""
+
+#: ../templates/email_settings_template.php:48
+msgid "Update"
+msgstr ""
+
+#: ../templates/form.php:24
+msgid "Additional details/comments"
+msgstr ""
+
+#: ../templates/form.php:29
+msgid "Request a Quote"
+msgstr ""
+
+#: ../templates/quotelist.php:9
+msgid "Sent email to Admin for the quote."
+msgstr ""
+
+#: ../templates/quotelist.php:84
+msgid "Remove this item"
+msgstr ""
+
+#: ../templates/quotelist.php:130
+msgid "No products were added to list"
+msgstr ""
+
+#: ../templates/settings_template.php:10
+msgid "General Settings"
+msgstr ""
+
+#: ../templates/settings_template.php:16
+msgid "Show \"Add to Quotelist\" on Products list page"
+msgstr ""
+
+#: ../templates/settings_template.php:19
+msgid "Position"
+msgstr ""
+
+#: ../templates/settings_template.php:25
+msgid "Use Shortcode"
+msgstr ""
+
+#: ../templates/settings_template.php:27
+msgid "If you want to position quotelist link on the single page --> Select position of \"Add to Quotelist\" link/button on single product page"
+msgstr ""
+
+#: ../templates/settings_template.php:31
+msgid "Add to quotelist link settings"
+msgstr ""
+
+#: ../templates/settings_template.php:36
+msgid "Show \"Add to Quotelist\" as a button instead of a link"
+msgstr ""
+
+#: ../templates/settings_template.php:40
+msgid "Default to theme colors (or leave unchecked and select custom colors below)"
+msgstr ""
+
+#: ../templates/settings_template.php:43
+msgid "Change Background Color"
+msgstr ""
+
+#: ../templates/settings_template.php:46
+#: ../templates/settings_template.php:53
+msgid "\"Default to theme colors\" must be unchecked"
+msgstr ""
+
+#: ../templates/settings_template.php:50
+msgid "Change Font Color"
+msgstr ""
+
+#: ../templates/settings_template.php:57
+msgid "Other Settings"
+msgstr ""
+
+#: ../templates/settings_template.php:61
+msgid "Hide Price from Shop and Product Pages"
+msgstr ""
+
+#: ../templates/settings_template.php:65
+msgid "Remove/Hide Price column from Request For Quote Page"
+msgstr ""
+
+#: ../templates/settings_template.php:69
+msgid "Remove/Hide Quantity from Product Pages and Request For Quote Page"
+msgstr ""
+
+#: ../templates/settings_template.php:72
+msgid "Use Third Party Forms and Email"
+msgstr ""
+
+#: ../templates/settings_template.php:75
+msgid "Note:Form and Email setiings has to be  handled from Third Party Pluign itself."
+msgstr ""
+
+#: ../templates/settings_template.php:79
+msgid "Use Gravity Forms"
+msgstr ""
+
+#: ../templates/settings_template.php:96
+msgid "Please remove [dvin-wcql-listing] shortcode in \"Request For Quote\" Page."
+msgstr ""
+
+#: ../templates/settings_template.php:99
+msgid "Must add [dvin-wcql-listing] shortcode as one of the HTML elements in Gravity Form where you want to show the listing."
+msgstr ""
+
+#: ../templates/settings_template.php:102
+msgid "Must add hidden field name of \"quotelisttable\" with value of  \"[quotelisttable]\" shortcode as one of the HTML elements in Gravity Form."
+msgstr ""
+
+#: ../templates/settings_template.php:109
+msgid "Custom CSS"
+msgstr ""
+
+#: ../templates/settings_template.php:113
+msgid "Use addquotelistlink class to style the button/link e.g. for alignment, float:left, float:right etc."
+msgstr ""
+
+#: ../templates/settings_template.php:118
+msgid "Reset to Default Settings"
+msgstr ""
+
