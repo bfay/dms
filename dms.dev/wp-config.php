@@ -80,6 +80,8 @@ define('WPLANG', '');
  */
 define('WP_DEBUG', false);define('FS_METHOD', 'direct');
 
+define( 'WP_MEMORY_LIMIT', '256M' );
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
